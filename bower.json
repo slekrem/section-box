@@ -2,7 +2,8 @@
   "name": "section-box",
   "main": "section-box.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.4.0"
+    "polymer": "Polymer/polymer#^1.4.0",
+    "app-layout": "polymerelements/app-layout#^0.10.5"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
