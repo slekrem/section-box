@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`section-box`
+
+
+@demo demo/index.html 
+-->
+
+<dom-module id="section-box">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'section-box',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'section-box',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
