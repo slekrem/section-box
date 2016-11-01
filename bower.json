@@ -1,7 +1,7 @@
 {
   "name": "section-box",
   "main": "section-box.html",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0",
     "app-layout": "polymerelements/app-layout#^0.10.5"
